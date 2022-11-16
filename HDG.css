@@ -1,0 +1,220 @@
+*,::before,::after
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: bisque;
+}
+header
+{
+    height: 1cm;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(68, 68, 247);
+}
+nav
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border-bottom: 5px solid indigo;
+}
+nav h1 
+{
+    margin-left: 60px;
+    color: rgb(32, 32, 27);
+    font-family: 'playfair Display', sans-serif;
+}
+nav .onglets
+{
+    margin-top: 3px;
+    margin-left: 80px;
+}
+nav .onglets a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding-bottom:5px ;
+}
+article
+{
+    height: 3cm;
+    width: 100%;
+    background-color: rgb(80, 80, 119);
+    display: flex;
+}
+.list-item
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(6, 23, 39);
+    list-style-type: none;
+    height: 100%;
+    line-height: 50px;
+    font-size: 22px; 
+    
+}
+.item
+{
+    cursor: pointer;
+    margin: 0 20px;
+    flex-shrink: 0%  ;
+}
+.item samp
+{
+    font-size: 17px;
+}
+.list-item:nth-child(3)
+{
+    margin-left: 0% ;
+}
+.sous-list
+{
+   position: relative;
+   display: none;
+}
+.item-sous-list
+{
+    list-style-type: none;
+    text-align: center;
+    padding: 0 10px;
+    background-color: rosybrown;
+    border-bottom: 0.5px solid indigo;
+}
+.item-sous-list:hover
+{
+    background-color: blueviolet;
+}
+.item:hover > ul
+{
+    display: block;
+}
+.un
+{
+    height: 3cm;
+    width: 27%;
+    background-color: transparent;
+}
+.deux
+{
+    height: 1cm;
+    width: 27%;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    background-color: rgb(34, 105, 172);
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.deux a
+{
+    color: black;
+}
+.troi
+{
+    height: 60px;
+    width: 25%;
+    background-color: cadetblue;
+    margin-left: 3cm;
+    margin-top: 23px;
+}
+.troi a
+{
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+}
+aside
+{
+    height: 15cm;
+    width: 100%;
+    background: url(batiment4.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 40px;
+}
+aside button
+{
+    height: 2cm;
+    width: 4cm;
+}
+aside button a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(104, 99, 99);
+}
+section
+{
+    height: 4cm;
+    width: 100%;
+    background-color: rgb(94, 94, 245);
+    margin-bottom: 20px;
+    align-items: center;
+}
+section h1
+{
+    text-align: center;
+}
+section p 
+{
+    text-align: justify;
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
+.actue 
+{
+    height: 9cm;
+    width: 100%;
+    margin-top: 1cm;
+    background-color: rgb(224, 224, 243);
+    font-family: Arial Narrow;
+}
+.actue img
+{
+    height:8cm ;
+    width: 33%;
+    display: inline-block;
+}
+footer
+{
+    height: 8cm;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    text-align: left;
+}
+.pied
+{
+    height: 7cm;
+    width: 24%;
+    background-color: transparent;
+    color: white;
+    margin-top: 1cm;
+}
+.pied a 
+{
+    color: rgb(104, 99, 99);
+    text-decoration: none;
+}
+
